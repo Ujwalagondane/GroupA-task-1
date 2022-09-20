@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .full-page{
+            height: 100%;
+            width: 100%;
+            background-color: rgb(230, 215, 220);
+        }
+
+
+        .search-box{
+            background: #2f3640;
+            height: 30px;
+            border-radius: 40px;
+            padding: 10px;
+        }
+
+        .search-box:hover > .search-txt{
+            width: 240px;
+            padding: 0px 6px;
+        }
+
+        .search-btn{
+            color: orangered;
+            float: right;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #2f3640;
+            display: flex;
+            justify-content: center;
+        }
+
+        .search-img{
+            height: 30px;
+            width: 30px;
+        }
+
+        .search-txt{
+            background: none;
+            outline: none;
+            border: none;
+            float: left;
+            padding: 0;
+            color:black
+            font-size: 30px;
+            transition: 0.4s;
+        }
+
+        ul{
+            margin: 5px;
+            padding: 5px;
+            height: 25px;
+            list-style: none;
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+
+        li{
+            float: left;
+            border-right: 1px solid black;
+        }
+
+        a{
+            display: block;
+            padding:0 25px;
+            color: wheat;
+            text-decoration: none;
+            
+        }
+
+        a:hover{
+            background-color: darkcyan;
+        }
+
+        p{
+            font-size: 30px;
+        }
+
+        .heading{
+            font-size: 50px;
+            font-style: italic;
+        }
+
+        .main-img{
+            height: 300px;
+            
+        }
+
+       .description{
+        font-size: 20px;
+        font-style: italic;
+        color: #2f3640;
+
+       }
+
+    </style>
+    
+   
+</head>
+<body>
+    <div class="full-page">
+        <div class="search-box">
+           
+            <a class="search-btn">
+                <img src="magnifying-glass.png" class="search-img"/>
+            </a>
+        </div>
+        
+        
+        <div>
+            <ul>
+                <li><a href="a">Home</a></li>
+                <li><a href="a">About Us</a></li>
+                <li><a href="a">Products</a></li>
+                <li><a href="a">Services</a></li>
+                <li><a href="a">Contact Us</a></li>
+            </ul>    
+        </div>
+            
+            <p>Shop Computers & Laptops</p>
+            <p class="description">
+                Lighten up with lenovo Pro, the touchscreen
+                Ultrabook that's in a class all its own.
+            </p> 
+           
+        <div>
+
+            <div class="heading">
+                ULTRA light.<br>
+                ultra LOADED.
+                <img src="lapi.png" class="main-img"/>   
+            </div>
+
+            
+            
+        </div>
+        
+        
+    </div>
+</body>
+</html>
